@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Список дел</string>
+
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="text" tools:ignore="TypographyEllipsis">Вветите текст записи...</string>
+    <string name="btnText">Добавить</string>
+    <string name="dell">Удалить?</string>
+    <string name="sucessfull">Выполнено</string>
+
+
+</resources>
