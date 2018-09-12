@@ -29,6 +29,7 @@
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:layout_weight="2"
+            android:onClick="onClick"
             android:hint="@string/date"
             />
         <EditText
@@ -40,6 +41,7 @@
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:layout_weight="2"
+            android:onClick="onClick"
             android:hint="@string/time"
             />
         </LinearLayout>
@@ -54,6 +56,13 @@
             android:layout_marginBottom="5dp"
             android:hint="@string/text"
             />
+        <Spinner
+            android:id="@+id/spTypeNotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginBottom="10dp"/>
         <Button
             android:id="@+id/btnAddNotice"
             android:layout_width="match_parent"

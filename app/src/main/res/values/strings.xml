@@ -8,5 +8,6 @@
     <string name="dell">Удалить?</string>
     <string name="sucessfull">Выполнено</string>
 
-
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
 </resources>
